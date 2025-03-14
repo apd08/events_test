@@ -263,7 +263,7 @@ class App extends React.Component {
           <AboutUs/>
           </>)}/>
 
-        <Route path="/favourites" element={(
+        <Route path="/events_test/favourites" element={(
         <>
         <AdminHeader cart={this.state.cart} onDeleteCart={this.deleteCart}/>
         <Favourites events={this.state.events} onDelete={this.deleteEvent}/>
