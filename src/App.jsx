@@ -180,7 +180,7 @@ class App extends React.Component {
 
     {/* <BrowserRouter> */}
       <Routes>
-        <Route path="/apd08.github.io/events_test/" exact element={(
+        <Route path="/events_test/" exact element={(
           <>
           <AdminHeader cart={this.state.cart} onDeleteCart={this.deleteCart}/>
           <Categories chooseCategory={this.chooseCategory}/>
